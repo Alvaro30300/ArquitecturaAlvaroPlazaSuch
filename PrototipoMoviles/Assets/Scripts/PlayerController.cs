@@ -170,7 +170,7 @@ public class PlayerController : MonoBehaviour
     {
         if(collision.gameObject.layer == LayerMask.NameToLayer("Coins"))
         {
-            //Debug.Log("Monedita");
+            Debug.Log("Monedita");
             Destroy(collision.gameObject);
         }
     }
