@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class GameManager : MonoBehaviour
 {
-    //variable statica para el singleton
+    //variable estatica para el singleton
     public static GameManager instance;
 
     //PATRON SINGLETON
@@ -48,6 +48,10 @@ public class GameManager : MonoBehaviour
     public void EndGame()
     {
         SceneManager.LoadScene("EndGame 2");
+    }
+    public void Ranking()
+    {
+        SceneManager.LoadScene("ScoreRanking");
     }
     public void ExitGame()
     {
